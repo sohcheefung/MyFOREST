@@ -17,6 +17,11 @@ public class sceneManager : MonoBehaviour
 	public GameObject MerantiUI;
 	public GameObject SintokUI;
 	
+	public void loaduserName(){
+		
+		Application.LoadLevel("displayUsername");
+	}
+	
 	public void Quit()
 	{
 		quitboxAppear = true;
